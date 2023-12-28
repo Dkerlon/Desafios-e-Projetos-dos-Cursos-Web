@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav{
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.nav_container{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo_bookmark:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.nav_content{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.li{
+    font-size: 400;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: hsl(229, 31%, 21%);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.li:hover{
+    color: hsl(0, 94%, 66%);
+    border-top: 3px solid hsl(0, 94%, 66%);
+}
+
+.nav_btn{
+    padding: 8px 24px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: hsl(0, 94%, 66%);
+    border: 3px solid hsl(0, 94%, 66%);
+    color: white;
+}
+
+.nav_btn:hover{
+    background-color: #fff;
+    color: hsl(0, 94%, 66%);
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 100px auto 50px auto;
+}
+
+.left_container{
+    width: 40%;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.left_container p {
+    margin: 30px 0px;
+    color: hsl(229, 8%, 60%);
+}
+
+.btn_getChrome{
+    padding: 10px 35px;
+    color: white;
+    background-color: hsl(231, 69%, 60%);
+    border: 3px solid hsl(231, 69%, 60%);
+    border-radius: 2px;
+    margin-right: 15px;
+    letter-spacing: 1px;
+}
+
+.btn_getChrome:hover, .btn_getFirefox{
+    cursor: pointer;
+    color: hsl(231, 69%, 60%);
+    background-color: #fff;
+}
+
+.btn_getFirefox{
+    padding: 10px 35px;
+    letter-spacing: 1px;
+    color: hsl(229, 8%, 60%);
+    background-color: #fff;
+    border: 3px solid hsla(229, 8%, 60%, 0.452);
+    border-radius: 2px;
+}
+
+.btn_getFirefox:hover{
+    border: 3px solid black;
+    color: black;
+}
+
+.right_container{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+.right_container img{
+    position: relative;
+    bottom: 20px;
+    scale: 1.2;
+}
+
+
+.bookmark{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 60%;
+    margin: 0 auto;
+    border-bottom: 1px solid hsla(229, 8%, 60%, 0.432);
+    padding: 20px;
+}
+
+.des p {
+    color: hsl(229, 8%, 60%);
+}
+
+.des ul{
+    list-style-type: none;
+    margin-top: 30px;
+    display: flex;
+    gap: 70px;
+}
+
+.des ul li{
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.menu:hover{
+    color: hsl(0, 94%, 66%);
+}
+
+.selecionado{
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+}
+
+.section_content{
+    margin-top: 100px;
+    display: flex;
+    gap: 8%;
+}
+
+.section_content img{
+    position: relative;
+    bottom: 60px;
+}
+
+.right_section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 80px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right_section p{
+    width: 80%;
+    color: hsl(229, 8%, 60%);
+}
+
+.des li:hover{
+    cursor: pointer;
+}
+
+.btn_info{
+    align-self: flex-start;
+    border-radius: 2px;
+    color: white;
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn_info:hover{
+    opacity: 0.9;
+}
+
+.imgs{
+    width: 536px;
+    height: 400px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.section_download{
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    gap: 70px;
+    margin-bottom: 200px;
+}
+
+.card{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 20px 30px 20px;
+    box-shadow: 0px 2px 16px 2px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.btn_instal{
+    padding: 10px 40px;
+    border: 3px solid hsl(231, 69%, 60%);
+    border-radius: 2px;
+    color: #fff;
+    background-color: hsl(231, 69%, 60%);
+    cursor: pointer;
+}
+
+.btn_instal:hover{
+    background-color: #fff;
+    color: hsl(231, 69%, 60%);
+}
+
+.section_questions{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.firts_p{
+    text-align: center;
+}
+
+.questions{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+.questions li{
+    border-top: 1px solid #ccc;
+}
+
+.questions p{
+    margin: 20px 0px 10px 20px;
+    display: none;
+    color: hsl(229, 8%, 60%);
+}
+
+.question_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.arrow{
+    transition: transform .4s ease-in-out;
+}
+
+.arrow:hover{
+    transform: rotateZ(180deg);
+}
+
+.questao-selecionada{
+    display: inline-block !important;
+}
+
+.questions button{
+    align-self: center;
+}
+
+.email_form{
+    margin-top: 150px;
+    background-color: hsl(231, 69%, 60%);
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+    color: white;
+}
+
+.email_form p{
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+
+.email_form span{
+    display: inline-block;
+    font-size: 25px;
+    margin: 30px 0px;
+}
+
+.email_form input{
+    padding: 10px 95px 10px 10px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#btn_email{
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: hsl(0, 94%, 66%);
+    border: 2px solid hsl(0, 94%, 66%);
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+#btn_email:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: hsl(0, 94%, 66%);
+}
+
+footer{
+    background-color: hsl(229, 31%, 21%);
+    padding: 20px;
+}
+
+.footer_container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links{
+    align-items: center;
+    display: flex;
+}
+
+.links ul{
+    gap: 50px;
+    display: flex;
+    list-style: none;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: hsl(0, 94%, 66%);
+}
+
+.logo_footer{
+    display: flex;
+    gap: 20px;
+}
+
+.logo_footer img:hover{
+    scale: 1.1;
+}

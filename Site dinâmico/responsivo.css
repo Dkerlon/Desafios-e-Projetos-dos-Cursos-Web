@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1024px) {
+
+    .nav_content{
+        display: none;
+    }
+
+    .header_content{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: -10px auto 50px auto;
+        gap: 125px;
+    }
+
+    .header_content img{
+        scale: 0.96;
+    }
+
+    .left_container{
+        width: 80%;
+        text-align: center;
+    }
+
+    .des{
+        width: 100%;
+    }
+
+    .des ul{
+        gap: 20px;
+    }
+
+    .section_content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .section_content img{
+        margin-top: 50px;
+        scale: 0.9;
+    }
+
+    .right_section{
+        display: flex;
+        margin-top: 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .btn_info{
+        align-self: center;
+    }
+
+    .section_download p{
+        margin-bottom: 40px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column  ;
+        gap: 30px;  
+    }
+
+    .card{
+       margin-top: -30px;
+    }
+
+    .section_questions h2{
+        text-align: center;
+    }
+
+    .footer_container{
+        width: 90%;
+    }
+
+    .links ul{
+        gap: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 664px){
+    .header_content img{
+        scale: 0.7;
+    }
+    .section_content img{
+        margin-top: 50px;
+        scale: 0.7;
+    }
+    
+    .section_questions{
+        gap: 10px;
+        width: 80%;
+    }
+
+    .section_questions p{
+        text-align: left;
+    }
+
+    .des ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

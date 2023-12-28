@@ -1,0 +1,46 @@
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (max-width: 1040px) {
+   
+    .nav_main{
+        justify-content: space-between;
+        display: flex;
+        text-align: center;
+    }
+
+    .nav_bar{
+        display: none;
+    }
+
+    .main_content{
+        display: block;
+        margin-top: -8%;
+    }
+
+    .main_right, .main_left{
+        width: 80vw;
+        text-align: center;
+    }
+
+    .main_left h2,h1,p{
+        padding: 10px;
+    }
+
+    .main_right img{
+        margin-top: 15px;
+        width: 60vw;
+    }
+
+    .card_content{
+        display: block;
+    }
+
+    #whats{
+        width: 10%;
+    }
+    
+    .btn_nav{
+        display: inline-block;
+    }
+}   
+
+

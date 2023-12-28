@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font: 18px 'Epilogue', sans-serif;
+    position: relative;
+}
+
+header{
+    margin: 5px auto;
+    max-width: 1700px;
+    position: relative;
+    padding: 20px;
+}
+
+button,a{
+    cursor: pointer;
+}
+
+.container_header{
+    max-width: 95%;
+    height: 50px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.nav_content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logo_header{
+    width: 90px;
+}
+
+.nav_ul{
+    font-size: 19px;
+    font-weight: 500;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav_ul img{
+    margin-right: 20px;
+}
+
+.nav_ul li,ul,a{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 5px;
+    color: #696969;
+}
+
+.nav_ul a:hover {
+    color: black;
+}
+
+.dropdown_btn_1{
+    position: relative;
+}
+
+.dropdown_btn_1 img, .dropdown_btn_2 img{
+    margin: 0;
+}
+
+.dropdown_1{
+    background-color: white;
+    position: absolute;
+    width: 170px;
+    padding: 20px;
+    border-radius: 15px;
+    right: 1px;
+    margin: 0;
+    display: none;
+    flex-direction: column;
+    margin-top:10px;
+    left:5px;
+    -webkit-box-shadow: 3px 4px 30px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 30px -3px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 30px -3px rgba(0,0,0,0.75);
+}
+
+
+.dropdown_set_1{
+    transition: transform 0.3s ease;
+}
+
+.dropdown_btn_1:hover .dropdown_set_1{
+    transform: rotateZ(180deg)
+}
+
+.dropdown_set_2{
+    transition: transform 0.3s ease;
+}
+
+.dropdown_btn_1:hover .dropdown_set_2{
+    transform: rotateZ(180deg)
+}
+
+.dropdown_btn_2:hover .dropdown_set_2{
+    transform: rotateZ(180deg)
+}
+
+.dropdown_1 li{
+    margin-bottom: 8px;
+}
+
+.dropdown_1 img{
+    margin-right: 5%;
+    width: 15px;
+}
+
+.dropdown_1 a{
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
+
+.dropdown_btn_2{
+    position: relative;
+}
+
+.dropdown_2{
+    background-color: white;
+    position: absolute;
+    width: 120;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin: 0;
+    display: none;
+    left: 5px;
+    flex-direction: column;
+    margin-top:10px;
+    -webkit-box-shadow: 3px 4px 30px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 30px -3px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 30px -3px rgba(0,0,0,0.75);
+}
+
+
+.dropdown_2 li{
+    margin-bottom: 8px;
+}
+
+.dropdown_2 img{
+    margin-right: 5%;
+    width: 15px;
+}
+
+.dropdown_2 a{
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
+
+.dropdown_btn_1:hover .dropdown_1{
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown_btn_2:hover .dropdown_2{
+    display: flex;
+}
+
+#login_btn{
+    font-size: 15px;
+    color: #696969;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 18px;
+    margin-right: 5px;
+    background-color: #6969690c;
+}
+
+#register_btn{
+    font-size: 15px;
+    color: #696969;
+    border: 3px solid #696969;
+    border-radius: 10px;
+    padding: 7px 25px;
+    font-weight: 500;
+    background-color: white;
+}
+
+#login_btn:hover{
+    color: black;
+}
+
+#register_btn:hover{
+    border: 3px solid black;
+}
+
+main{
+    padding: 10px;
+    height: 80vh;
+    max-width: 1700px;
+    margin: 40px auto 10px auto;
+}
+
+.container{
+    max-width: 95%;
+    height: 70vh;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 50%;
+}
+
+.container_left h1,span{
+    font-size: 80px;
+    margin-bottom: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_left p {
+    color: #696969;
+    margin: 20px 0px;
+    width: 90%;
+}
+
+.container_left button{
+    margin-top: 20px;
+    padding: 20px 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #141414;
+    border: 1px solid black;
+    color: white;
+}
+
+.container_left button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.container_right{
+    flex: 50%;
+    margin-left: 5%;
+}
+
+.container_right img{
+    width: 80%;
+    height: 80%;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 150px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
