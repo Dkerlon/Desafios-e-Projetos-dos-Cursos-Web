@@ -4,15 +4,15 @@ const arrow = [...document.querySelectorAll('.arrow')]
 const input_email = document.querySelector('#email_form')
 const btn_email = document.querySelector('#btn_email')
 const novaSessao = [{
-    img:'/Projetos/bla/bookmark-landing-page-master/bookmark-landing-page-master/images/illustration-features-tab-1.svg',
+    img:'images/illustration-features-tab-1.svg',
     titulo:'Bookmark in one  click',
     paragrafo:'Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.'
 },{
-    img:'/Projetos/bla/bookmark-landing-page-master/bookmark-landing-page-master/images/illustration-features-tab-2.svg',
+    img:'images/illustration-features-tab-2.svg',
     titulo:'Intelligent search',
     paragrafo:'Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.'
 },{
-    img:'/Projetos/bla/bookmark-landing-page-master/bookmark-landing-page-master/images/illustration-features-tab-3.svg',
+    img:'images/illustration-features-tab-3.svg',
     titulo:'Share your bookmarks',
     paragrafo:' Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.'
 }]
@@ -84,3 +84,4 @@ class NovoEmail {
         this.senha = senha
     }
 }
+
