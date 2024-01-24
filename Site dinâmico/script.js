@@ -16,7 +16,7 @@ const novaSessao = [{
     titulo:'Share your bookmarks',
     paragrafo:' Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.'
 }]
-let usuarios = []
+    let usuarios = []
 let menuSelecionado;
 
 function renderizarSessão(){
