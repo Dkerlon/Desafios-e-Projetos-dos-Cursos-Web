@@ -1,0 +1,61 @@
+.App{
+  background-color: #000;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 35%;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 100px;
+  
+}
+.container{
+ 
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+button{
+  width: 22%;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 2em;
+  color: white;
+}
+button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.gray{
+  background-color: #505050;
+}
+.orange{
+  background-color: #FF9500;
+}
+
+.op{
+  color: #000;
+ background-color: #fff;
+}
+
+.zero{
+  text-align: left;
+  width: 49%;
+  padding-left: 32px;
+}
+
+.result{
+  color: white;
+  width: 100%;
+  height: 80px;
+  text-align: right;
+  margin-right: 23px;
+  font-size: 4em;
+  overflow: hidden;
+}

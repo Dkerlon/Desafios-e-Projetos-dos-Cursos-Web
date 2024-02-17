@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio de Fomulário</title>
+</head>
+<body>
+    <form action="https://formsubmit.co/kerlonbrito0@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Nome">
+        <input type="text" name="subject" placeholder="Assunto">
+
+        <!--Armazena o email do usuário na hora da resposta-->
+        <input type="email" name="email" id="email" placeholder="Email">
+
+        <!--Redireciona para página própria-->
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/Exerc%C3%ADcios/EnviaFormul%C3%A1rio/sucesso.html">
+        
+        <!--Envia o formulário TAMBÉM para esse email-->
+        <input type="hidden" name="_cc" value="kiritokirigaya000000@gmail.com">
+
+        <!--Envia uma mensagem automática para o email digitado-->
+        <input type="hidden" name="_autoresponse" value="Recebemos sua mensagem! Obrigado pelo contato e logo responderemos!">
+
+        <!--
+        Desabilita o Captcha
+        <input type="hidden" name="_captcha" value="false">
+        -->
+
+        <textarea name="message" placeholder="Mensagem"></textarea>
+
+        <button type="submit" id="btn_enviar">Enviar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
