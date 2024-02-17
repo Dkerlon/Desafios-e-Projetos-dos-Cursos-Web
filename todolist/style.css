@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nova Square', sans-serif;
+}
+
+body{
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    background-color: #d1d1d1;
+    width: 60vw;
+    max-width: 700px;
+    margin: 300px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.75);
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.ad_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+.adtask{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 65%;
+    outline: none;
+    font-size: 20px;
+}    
+
+.btn_ad{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #003329;
+    cursor: pointer;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.btn_ad:hover{
+    opacity: 0.8;
+}
+
+.btn_ad:active{
+    opacity: 0.6;
+}
+
+.task{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: all 0.2 ease-in-out;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.task:hover{
+    scale: 1.02;
+    opacity: 0.9;
+}
+
+.selected{
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
+
+img{
+    width: 30px;
+    margin: 0px 10px;
+}
+
+
+ul,li{
+
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}

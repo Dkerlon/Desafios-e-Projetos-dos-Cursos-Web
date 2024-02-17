@@ -1,0 +1,74 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    align-items: center;
+    background-color: #ccc;
+    padding: 9px;
+}
+
+.relogio_content{
+    text-align: center;
+}
+
+.relogio{
+    width: 200px;
+    background-color: black;
+    color: green;
+    padding: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.setar_timer{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container input{
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+.container label{
+
+    margin: 5px;
+}
+
+.botoes button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ccc;
+    margin: 11px;
+}
+
+button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.alarme{
+    color: red !important;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
